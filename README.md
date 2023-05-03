@@ -1,4 +1,10 @@
 # BlogSearch2.0
+          #How to Run
+server - 'python manage.py runserver'
+front - 'npm start'
+      
+           
+              
 To search blogs from the internet using various information retreival techniques
 
 
@@ -8,8 +14,9 @@ Blog Authorship Corpus | Kaggle
 Although this consists of 600,000 posts from 2004, we have just considered top 10000 due to some memory related issues of our system.  
     
      Caution
-While searching please keep in mind that the data is from 2004 and please search accordingly.      
-    Indexing Components   
+While searching please keep in mind that the data is from 2004 and please search accordingly.     
+   
+          Indexing Components   
      
 This is offline process.    
 The data structure used for indexing is dictionary in python (kind of like HashMap). It will take the words as indices or keys and the values will be their  respective posting lists which is again taken as a set in python.   
