@@ -2,7 +2,7 @@
           #How to Run
 server - 'python manage.py runserver'
 front - 'npm start'
-      
+![Alt text]'./images/1.png
            
               
 To search blogs from the internet using various information retreival techniques
